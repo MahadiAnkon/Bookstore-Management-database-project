@@ -53,7 +53,7 @@ create table Author(
 	name varchar(20) not null,
 	address varchar(40),
 	primary key(name));
-	
+
 create table writtenby(
 	code integer not null,
 	name varchar(20) not null,
